@@ -98,7 +98,7 @@ for j in range(len(z[0])):
     Z1.append(np.std(buff2)*1)
     
     
-#ax2 = plt.plot(Z, Heightideal,'r', linewidth =4)
+ax2 = plt.plot(Z, Heightideal,'r', linewidth =4)
 X = np.array(Z,dtype=float)
 Y = np.array(Heightideal,dtype=float)
 x = np.asanyarray(X)
