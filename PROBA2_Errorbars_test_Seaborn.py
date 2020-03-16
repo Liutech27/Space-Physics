@@ -12,7 +12,7 @@ from matplotlib import ticker
 import pandas as pd 
 import math 
 from scipy import signal
-
+import seaborn as sns
 
 
 
@@ -99,13 +99,8 @@ for j in range(len(z[0])):
     
     
 #ax2 = plt.plot(Z, Heightideal,'r', linewidth =4)
-X = np.array(Z,dtype=float)
-Y = np.array(Heightideal,dtype=float)
-x = np.asanyarray(X)
-y = np.asanyarray(Y)
-xerror = Z1
-yerror = 0
-ax3 = plt.errorbar(x,y, xerr=xerror, yerr=yerror, errorevery=3,markeredgewidth=4,linewidth=3)
+
+ax3 = sns.lineplot(Z,Heightideal,err_style="bars", ci = 17)
 plt.draw()
 os.chdir(path_string) 
 plt.savefig(picture_filename)
