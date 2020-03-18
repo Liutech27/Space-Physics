@@ -71,7 +71,7 @@ Heightideal = range(int(math.ceil(np.max(minh))), int(math.floor(np.min(maxh))),
 row = np.size(Heightideal,0)
 InterpON2=np.zeros((row,1000))
 
-plt.figure(figsize=(7,7))
+plt.figure(figsize=(10,10))
 plt.title('Height vs Density', fontsize =22) 
 plt.xscale('log')
 plt.xlabel('O+N2 Density(cm^-3)', fontsize =18)
@@ -82,7 +82,7 @@ for j in range(filelist1size):
     yb = data3d[:,1,j]
     xb = data3d[:,0,j]
     zb = np.interp(Heightideal,xb,yb)
-    ax1 = plt.plot(yb, xb, 'k--', linewidth = 2)
+    ax1 = plt.plot(yb, xb, 'k--', linewidth = 1)
     
     z.append(zb)
 
@@ -95,12 +95,13 @@ for j in range(len(z[0])):
         buff += z[i][j]
         buff2[i]=z[i][j]
     Z.append(buff/len(z))
-    Z1.append(np.std(buff2)*1)
-    
+    Z1.append(np.std(buff2)*2.17)
+    Xe = Z1
     
 #ax2 = plt.plot(Z, Heightideal,'r', linewidth =4)
 
-ax3 = sns.lineplot(Z,Heightideal,err_style="bars", ci = 17)
+ax3 = plt.errorbar(Z,Heightideal, xerr=Xe, color='red', ecolor = 'red', elinewidth=2, capsize =3);
+#ax1 = plt.plot(yb, xb, 'k--', linewidth = 1)
 plt.draw()
 os.chdir(path_string) 
 plt.savefig(picture_filename)

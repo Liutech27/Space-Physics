@@ -20,7 +20,7 @@ data2d=np.zeros((200,2))
 path_string = "C:/Users/markl/Desktop/"
 database_name = 'PROBA2LYRA/'
 picture_filename = 'p2.png'
-textfile_name_input = "*2010-11-25*dawn*.txt"
+textfile_name_input = "*2010-11*dawn*.txt"
 
 os.chdir((path_string + database_name))
 
@@ -34,4 +34,4 @@ for i in range(filelist1size):
     height = height[:] - 6371 
     on2_den = data0[:,1]
     
-sns.relplot(x=on2_den,y=height,kind="line")
+sns.lineplot(x=on2_den,y=height)
