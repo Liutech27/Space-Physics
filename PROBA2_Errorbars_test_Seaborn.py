@@ -22,8 +22,9 @@ data2d=np.zeros((200,2))
 
 path_string = "C:/Users/markl/Desktop/"
 database_name = 'PROBA2LYRA/'
-picture_filename = 'p2.png'
-textfile_name_input = "*2014-11*dawn*.txt"
+picture_filename = 'dusk'
+textfile_name_input = "*dusk*.txt"
+path_save = "C:/Users/markl/Desktop/PROBA2 plotted diagarm/Dawn"
 
 os.chdir((path_string + database_name))
 #for file in glob.glob("*.txt"):
@@ -95,7 +96,7 @@ for j in range(len(z[0])):
         buff += z[i][j]
         buff2[i]=z[i][j]
     Z.append(buff/len(z))
-    Z1.append(np.std(buff2)*2.17)
+    Z1.append(np.std(buff2)*1.17)
     Xe = Z1
     
 #ax2 = plt.plot(Z, Heightideal,'r', linewidth =4)
@@ -103,5 +104,5 @@ for j in range(len(z[0])):
 ax3 = plt.errorbar(Z,Heightideal, xerr=Xe, color='red', ecolor = 'red', elinewidth=2, capsize =3);
 #ax1 = plt.plot(yb, xb, 'k--', linewidth = 1)
 plt.draw()
-os.chdir(path_string) 
+os.chdir(path_save) 
 plt.savefig(picture_filename)
