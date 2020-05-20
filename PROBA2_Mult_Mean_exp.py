@@ -98,8 +98,6 @@ for j in range(len(z[0])):
     
 ax1 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2010-12*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -311,8 +309,6 @@ for j in range(len(z[0])):
     
 ax4 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2011-12*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -382,8 +378,7 @@ for j in range(len(z[0])):
     
 ax5 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
+
 textfile_name_input = "*2012-01*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -453,8 +448,6 @@ for j in range(len(z[0])):
     
 ax6 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2012-02*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -524,8 +517,6 @@ for j in range(len(z[0])):
     
 ax7 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2012-12*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -595,8 +586,6 @@ for j in range(len(z[0])):
     
 ax8 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2013-01*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -666,8 +655,6 @@ for j in range(len(z[0])):
     
 ax9 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2013-02*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -737,8 +724,6 @@ for j in range(len(z[0])):
     
 ax10 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2013-11*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -808,8 +793,6 @@ for j in range(len(z[0])):
     
 ax11 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2013-12*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -879,8 +862,6 @@ for j in range(len(z[0])):
     
 ax12 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2014-01*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -950,8 +931,6 @@ for j in range(len(z[0])):
     
 ax13 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2014-02*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -1021,8 +1000,6 @@ for j in range(len(z[0])):
     
 ax14 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2014-11*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -1092,8 +1069,6 @@ for j in range(len(z[0])):
     
 ax15 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2014-12*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -1163,8 +1138,6 @@ for j in range(len(z[0])):
     
 ax16 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2015-01*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -1234,8 +1207,6 @@ for j in range(len(z[0])):
     
 ax17 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2015-11*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -1305,8 +1276,6 @@ for j in range(len(z[0])):
     
 ax18 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2015-12*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -1376,8 +1345,6 @@ for j in range(len(z[0])):
     
 ax19 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2016-01*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -1447,8 +1414,6 @@ for j in range(len(z[0])):
     
 ax20 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2016-12*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -1518,8 +1483,6 @@ for j in range(len(z[0])):
     
 ax21 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-path_string = "C:/Users/markl/Desktop/"
-database_name = 'PROBA2LYRA/'
 textfile_name_input = "*2017-01*dawn*.txt"
 
 os.chdir((path_string + database_name))
@@ -1589,7 +1552,7 @@ for j in range(len(z[0])):
     
 ax22 = plt.plot(Z, Heightideal,'--', linewidth =2)
 
-Xetotal = [Xe1, Xe2, Xe3, Xe4, Xe5, Xe6, Xe7, Xe8, Xe9, Xe10, Xe11, Xe12, Xe13, Xe14, Xe15, Xe16, Xe17, Xe18, Xe19, Xe20, Xe21, Xe22] 
+#Xetotal = [Xe1, Xe2, Xe3, Xe4, Xe5, Xe6, Xe7, Xe8, Xe9, Xe10, Xe11, Xe12, Xe13, Xe14, Xe15, Xe16, Xe17, Xe18, Xe19, Xe20, Xe21, Xe22] 
 
 
 #axerror = plt.errorbar(Z,Heightideal, xerr=Xetotal, color='red', ecolor = 'red', elinewidth=2, capsize =3);
